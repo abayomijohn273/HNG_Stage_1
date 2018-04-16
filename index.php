@@ -49,6 +49,11 @@
                 padding: 12px 50px;
                 color: #F2F2F2;
                 text-decoration: none;
+                transition:background 200ms ease-in; 
+            }
+            a:hover {
+                background:#F67809;
+                
             }
             .date {
             position: absolute;
@@ -63,7 +68,7 @@
     <body>
         <h1>Olatunji Abayomi</h1>
         <p>I am a Web Developer based in Lagos, Nigeria with few years of experience in HTML, BOOTSTRAP, CSS, JAVASCRIPT, PHP, MYSQL.<br> I am glad and it’s a privilege to be participate in HNG Internship 4</p>
-        <a href=""><span class="link">CLICK TO CONNECT</span></a>
+        <a href="https://www.linkedin.com/in/abayomi-olatunji-a60766b2">CLICK TO CONNECT</a>
         <?php
         echo "<span class='date'> ". date("h:i")." ".strtoupper(date("a"))."</span>";
         ?>
